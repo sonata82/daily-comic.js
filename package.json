@@ -6,7 +6,7 @@
   "repository": { "type": "git", "url": "git://github.com/mattiasrunge/daily-comic.js.git" },
   "dependencies": {
     "feedparser": ">= 0.16.5",
-    "request": ">= 2.33.0",
+    "request": "2.81.0",
     "q": ">= 1.0.0"
   },
   "devDependencies": {
