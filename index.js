@@ -46,7 +46,7 @@ module.exports = function(options) {
                             items.push({
                                 date: new Date(item.date),
                                 title: item.title,
-                                url: urlGroup[1],
+                                url: urlGroup[1].indexOf("http") == 0 ? urlGroup[1] : "https:" + urlGroup[1],
                                 text: altGroup && altGroup.length > 1 ? altGroup[1] : "",
                                 link: item.link
                             });
